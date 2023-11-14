@@ -25,7 +25,10 @@ int main(int argc, char const *argv[])
   Equipement equip(EquipementStats t,EquipementStats b,EquipementStats l,EquipementStats s);
   
   while (res->next()) {
-    equip.head.health = res->getInt("health");
+    equip.tete.health = res->getInt("Health");
+    equip.tete.atk = res->getInt("atk");
+    equip.tete.speed = res->getInt("speed");
+    equip.tete.def = res->getInt("def");
     }
 
 
