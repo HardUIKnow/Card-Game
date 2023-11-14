@@ -29,6 +29,11 @@ int main(int argc, char const *argv[])
     equip.tete.atk = res->getInt("atk");
     equip.tete.speed = res->getInt("speed");
     equip.tete.def = res->getInt("def");
+
+    equip.body.health = res->getInt("Health");
+    equip.body.atk = res->getInt("atk");
+    equip.body.speed = res->getInt("speed");
+    equip.body.def = res->getInt("def");
     }
 
 
